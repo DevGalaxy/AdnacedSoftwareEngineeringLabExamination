@@ -9,5 +9,10 @@ namespace OOPDemo
         public int Id { get; set; }
         public int BillId { get; set; }
         public List<Item> Items { get; set; }
+
+        public BillDetails GetBillDetails(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

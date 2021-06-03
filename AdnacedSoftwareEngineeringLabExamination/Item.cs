@@ -13,6 +13,26 @@ namespace OOPDemo
         public DateTime AddedAt { get; set; }
         public int CategoryId { get; set; }
         public Category Category { get; set; }
-    }
+        public void GetAllItems()
+        {
+            throw new NotImplementedException();
+        }
 
+        public void CreateItem()
+        {
+            throw new NotImplementedException();
+        }
+        public void DisplayItem(int id)
+        {
+            throw new NotImplementedException();
+        }
+        public void UpdateItem(Item Item)
+        {
+            throw new NotImplementedException();
+        }
+        public void DeleteItem(int id)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }

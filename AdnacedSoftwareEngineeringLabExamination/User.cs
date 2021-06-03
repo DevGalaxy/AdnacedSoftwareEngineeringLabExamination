@@ -20,5 +20,17 @@ namespace OOPDemo
         {
             // 
         }
+        public bool LogIn()
+        {
+            throw new NotImplementedException();
+        }
+        public bool LogOut()
+        {
+            throw new NotImplementedException();
+        }
+        public bool Register(User user)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
